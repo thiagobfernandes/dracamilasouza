@@ -94,8 +94,8 @@ const Services = () => {
       <div className="services__info">
         <div className="feedback">
           <p className="slogan" style={{ textAlign: "center" }}>
-            {language === "es" ? "Mais consciência" : " Más conciencia"}
-            <p>{language === "es" ? "menos doença" : "menos enfermedad"}</p>
+            {language === "es" ? "Más conciencia" : "Mais consciência"}
+            <p>{language === "es" ? "menos enfermedad " : "menos doença"}</p>
           </p>
           <p>
             <Feedback />
