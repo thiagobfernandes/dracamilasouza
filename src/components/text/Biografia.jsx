@@ -21,7 +21,7 @@ export const Biografia = () => {
             <Button />
           </p>
         </div>
-        <div className="img">
+        <div className="imagem">
           <img src={dr1} alt="Dr Camila" />
         </div>
       </div>

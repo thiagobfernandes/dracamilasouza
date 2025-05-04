@@ -60,7 +60,7 @@ export const Saude = () => {
       </section>
 
       <div className="divcomImagem">
-        <div className="img">
+        <div className="images">
           <img src="https://static.vecteezy.com/ti/fotos-gratis/p2/8017087-mulher-relaxante-sentada-e-praticando-meditacao-no-parque-publico-para-alcancar-a-felicidade-da-paz-interior-sabedoria-sob-a-arvore-no-verao-gratis-foto.jpg" alt="" />
         </div>
         <div className="text">

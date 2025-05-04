@@ -13,7 +13,7 @@
     text-align: center;
     gap: 5px;
 
-    .img {
+    .images {
       width: 50%;
       padding: 20px;
      
@@ -153,7 +153,7 @@
     }
   .divcomImagem{
     flex-direction: column;
-    .img {
+    .images {
       width: 100%;
     }
     .text{
