@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Banner } from "../banner/Banner";
 import AppointmentSection from "../AppointmentSection/AppointmentSection";
 import "./GenericPage.css";
-import video2 from "../../assets/camila.MOV"
+import video2 from "../../assets/camila.mp4"
 import video from "../../assets/videozada.mp4";
 
 import { useLanguage } from "../../context/languageContext"; // Importando o contexto
