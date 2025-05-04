@@ -1,0 +1,95 @@
+.encapsulam {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.encapsulam h2 {
+  font-size: 40px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.biografia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 100%;
+}
+
+.img {
+  width: 50%;
+}
+
+.img img {
+  width: 70%;
+  object-fit: cover;
+}
+
+.txt {
+  width: 70%;
+  font-size: 24px;
+  color: #7f8c8d;
+  line-height: 1.5;
+}
+
+.txt p {
+  margin-top: 18px;
+}
+
+@media (max-width: 1024px) {
+  .biografia {
+   
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .txt {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .encapsulam h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img {
+    width: 100%;
+  }
+
+  .txt {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .encapsulam h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .encapsulam h2 {
+    font-size: 24px;
+  }
+
+  .img img {
+    width: 90%;
+  }
+
+  .txt {
+    font-size: 14px;
+  }
+}

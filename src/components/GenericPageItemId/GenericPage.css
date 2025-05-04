@@ -1,0 +1,76 @@
+.generic__grid_Item {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.tratamentopara {
+  margin-top: 30px;
+ font-size: 2rem;
+}
+/* Ajustes para o Accordion */
+.accordion {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.generic_description {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  padding: 10px;
+  width: 50%;
+  box-shadow: 0 0 3px #ccc;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.accordion .header {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.accordion .content {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 0 0 5px 5px;
+}
+@media (max-width: 768px) {
+  .generic__grid_Item {
+    margin-top: 3rem; /* Reduz o espaçamento superior */
+    padding: 0 15px; /* Adiciona padding lateral para evitar que o conteúdo encoste nas bordas */
+  }
+
+  .generic_description {
+    width: 90%; /* Aumenta a largura para ocupar mais espaço na tela */
+    font-size: 1.6rem; /* Reduz o tamanho da fonte para melhor legibilidade */
+    padding: 20px; /* Reduz o padding interno */
+    margin: 0 auto; /* Centraliza o elemento */
+  }
+
+  .accordion .header {
+    padding: 10px; /* Reduz o padding para melhorar o espaço em telas pequenas */
+  }
+
+  .accordion .content {
+    padding: 10px; /* Reduz o padding para melhorar o espaço em telas pequenas */
+  }
+}
+
+@media (max-width: 480px) {
+  .generic_description {
+    width: 100%; /* Ocupa toda a largura disponível */
+    font-size: 1.6rem; /* Reduz ainda mais o tamanho da fonte */
+    padding: 15px; /* Reduz o padding interno */
+  }
+
+  .accordion .header {
+    font-size: 1rem; /* Reduz o tamanho da fonte do cabeçalho */
+  }
+
+  .accordion .content {
+    font-size: 0.9rem; /* Reduz o tamanho da fonte do conteúdo */
+  }
+}

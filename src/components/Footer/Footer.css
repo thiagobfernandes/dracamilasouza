@@ -1,0 +1,124 @@
+.footer {
+  background: #1b7f7e;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 4rem;
+}
+
+.footer > h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+.footer > h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.footer > span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  gap: 1rem;
+  cursor: pointer;
+  width: fit-content;
+  border-bottom: 0.15rem solid #fff;
+}
+
+.footer > span > h2 > a {
+  text-decoration: none;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.footer > span > h2 > a:hover {
+  transform: scale(1.1);
+  color: #22e9e6;
+  transition: all 0.3s ease;
+}
+
+.footer > span > img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.footer__socials > img {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.footer__socials img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.footer > p {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.footer h2 {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.footer a {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    padding: 2rem;
+  }
+
+  .footer > h1 {
+    font-size: 2.2rem;
+  }
+
+  .footer > h4 {
+    font-size: 1.6rem;
+  }
+
+  .footer > span > h2 > a {
+    font-size: 2.4rem;
+  }
+
+  .footer > span > img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .footer__socials > img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .footer > p {
+    font-size: 1.2rem;
+  }
+}

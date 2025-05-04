@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.accordion {
+  border-top: 2px dotted #000;
+  border-bottom: 2px dotted #000;
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 2rem;
+}
+
+.arrow {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.content {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 600px) {
+  .content{
+    p{
+      font-size: 1.6rem;
+    }
+  
+  }
+  
+}

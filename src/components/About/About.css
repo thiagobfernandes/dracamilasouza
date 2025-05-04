@@ -1,0 +1,130 @@
+.about {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  padding-bottom: 0px;
+  gap: 4rem;
+  margin-top: 40px;
+}
+
+.about__description {
+  flex: 0.5;
+  display: flex;
+  padding-left: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.about__description > h1 {
+  text-align: center;
+  font-size: 6rem;
+  color: black;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.about__description > h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+.about__description > h1 > span {
+  color: #1b7f7e;
+}
+
+.about__description > p {
+  font-size: 2rem;
+  color: black;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.about__description > button {
+  color: #fff;
+  background-color: #8b603d;
+  font-size: 1.4rem;
+  padding: 1.8rem 8rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  width: fit-content;
+  text-align: center;
+}
+
+.about__description > button:hover {
+  transform: scale(1.05);
+  transition: 0.5s all ease-in-out;
+}
+
+.about__hero {
+  flex: 0.5;
+  text-align: center;
+}
+
+.about__hero > img {
+  width: 60%;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 0 15px 2px #ccc;
+}
+
+.about__hero__mobile {
+  display: none;
+}
+
+@media screen and (min-width: 541px) and (max-width: 640px) {
+  .about {
+    flex-direction: column;
+    padding: 4rem 2rem;
+    gap: 2rem;
+  }
+
+  .about__description > h1 {
+    font-size: 5rem;
+  }
+
+  .about__hero {
+    display: none;
+  }
+
+  .about__hero__mobile {
+    display: block;
+  }
+
+  .about__hero__mobile > img {
+    height: 30rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .about {
+    flex-direction: column;
+    padding: 1rem 2rem;
+    gap: 2rem;
+  }
+
+  .about__description > h1 {
+    font-size: 3rem;
+  }
+
+  .about__description > p {
+    font-size: 1.4rem;
+  }
+
+  .about__hero {
+    display: none;
+  }
+
+  .about__hero__mobile {
+    display: block;
+  }
+
+  .about__hero__mobile > img {
+    height: 30rem;
+    width: 100%;
+  }
+}

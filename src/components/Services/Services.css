@@ -1,0 +1,372 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}
+
+.services > h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #346305;
+  text-align: left;
+  margin-left: 4rem;
+}
+
+.services__contact {
+  background: #1b7f7e;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 8rem; */
+}
+
+.services__contact__info {
+  color: #000;
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.services__contact__info > h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0000;
+}
+
+.services__contact__info > span > a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  width: fit-content;
+  border-bottom: 0.15rem solid #0000;
+  text-decoration: none;
+}
+
+.services__contact__info > span > a > p {
+  color: #000;
+  font-size: 1.6rem;
+}
+
+.services__contact__info > span > a > img {
+  height: 1.2rem;
+}
+
+.services__contact__image {
+  text-align: center;
+  flex: 0.4;
+}
+
+.services__contact__image > img {
+  /* width: 10rem; */
+  height: 30rem;
+}
+
+.services__service {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.services__service__card {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 25rem;
+  height: 30rem;
+
+  h1{
+    font-size: 3rem;
+    color:#000;
+    text-decoration: underline;
+    cursor: pointer;
+    
+  }
+}
+
+.services__service__card > img {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services__service__card > h4 {
+  color: #0000;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.services__service__card > p {
+  text-align: center;
+  color: #1a1a1a;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+}
+
+.services__info {
+  background-image: url("./image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 6rem 4rem;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 8rem;
+  /* height: 100vh; */
+}
+
+.services__info > .feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  text-align: center;
+  color: #000000;
+  font-size: 3rem;
+  margin-top: 8rem;
+  font-weight: 600;
+  margin-right: 120px;
+}
+
+.service__info > .feedback > .slogan {
+  width: 100%;
+  padding-bottom: 30px;
+ 
+}
+
+.services__info__numbers {
+  display: flex;
+  align-items: flex-start;
+  gap: 5rem;
+  
+  margin-top: 50vh;
+  margin-right: 25vw;
+}
+
+.services__info__numbers > span {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.services__info__numbers > span > h2 {
+  color: #000;
+  font-weight: 800;
+
+
+}
+
+.vermais{
+  h1{
+    font-size: 3rem;
+    transition: all 0.5s ease;
+  }
+  
+}
+.vermais > h1:hover {
+  cursor: pointer;
+ color: #1b7f7e;
+ text-decoration: underline;
+}
+
+.services__info__numbers > span > p {
+  color: #000;
+  font-size: 4rem;
+  padding-top: 50px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+@media screen and (max-width: 810px) and (min-width: 641px) {
+  .services__contact {
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .services__contact__info {
+    color: #000;
+    order: 2;
+    align-items: center;
+  }
+
+  .services__contact__info > h2 {
+    color: #000;
+    text-align: center;
+  }
+
+  .services__contact__image {
+    order: 1;
+  }
+
+  .services__contact__image > img {
+    height: 20rem;
+  }
+
+  .services__service {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .services__service__card {
+    width: 28rem;
+  }
+
+  .services__info {
+    flex-direction: column;
+    padding: 4rem;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .services__info > p {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .services__info__numbers {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    gap: 4rem;
+  }
+
+  .services__info__numbers > span > h2 {
+    font-size: 8rem;
+    text-align: center;
+  }
+
+  .services__info__numbers > span > p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .services > h1 {
+    margin-left: 2rem;
+    font-size: 2.2rem;
+  }
+  .feedback-container  {
+  padding-top: 10px;
+}
+
+.service__info {
+  p {
+    padding: 0px;
+  }
+}
+
+  .feedback {
+
+  }
+
+  .services__contact {
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .services__contact__info {
+    color: #000;
+    order: 2;
+    align-items: center;
+  }
+
+  .services__contact__info > h2 {
+    text-align: center;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .services__contact__info > span > p {
+    font-size: 1.4rem;
+   
+  }
+
+  .services__contact__info > span > img {
+    font-size: 1rem;
+  }
+
+  .services__contact__image {
+    order: 1;
+  }
+
+  .services__contact__image > img {
+    height: 10rem;
+  }
+
+  .services__service {
+    flex-direction: column;
+    gap: 14rem;
+    margin-bottom: 2rem;
+  }
+
+  .services__service__card {
+
+     h1{
+      width: 100%;
+      font-size: 2rem;
+      padding: 0px;
+      margin: 0px;
+      
+     }
+  }
+
+  .services__service__card > img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .services__info {
+    flex-direction: column;
+    padding: 4rem;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .services__info > p {
+    margin-top: 1rem;
+   
+  }
+
+  .services__info__numbers {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  
+    margin-right: 0px;
+    gap: 4rem;
+  }
+
+  .services__info__numbers > span > h2 {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .services__info__numbers > span > p {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0px;
+  }
+
+
+  .service__info > .feedback > .slogan {
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,32 @@
+.appointment__button {
+  display: inline-block;
+  background: #346305;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: 0.3s ease;
+}
+
+.appointment__button:hover {
+  background: #04923b;
+  transform: scale(1.05);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .appointment__button {
+    font-size: 1.6rem;
+    padding: 12px 20px;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .appointment__button {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    margin: 16px 0;
+  }
+}
