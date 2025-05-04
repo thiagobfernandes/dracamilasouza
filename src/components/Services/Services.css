@@ -256,6 +256,11 @@
 }
 
 @media screen and (max-width: 640px) {
+
+
+  .services__info > .feedback {
+    margin-right: 0px;
+  }
   .services > h1 {
     margin-left: 2rem;
     font-size: 2.2rem;
@@ -264,15 +269,11 @@
   padding-top: 10px;
 }
 
-.service__info {
-  p {
+.service__info p {
+  
     padding: 0px;
-  }
 }
 
-  .feedback {
-
-  }
 
   .services__contact {
     padding: 2rem;
@@ -336,8 +337,8 @@
     flex-direction: column;
     padding: 4rem;
     background-size: cover;
-    height: 100vh;
     justify-content: center;
+   
   }
 
   .services__info > p {
@@ -365,8 +366,7 @@
     padding: 0px;
   }
 
-
-  .service__info > .feedback > .slogan {
-    margin-right: 0px;
+ .feedback  {
+      margin-right: 0px;
   }
 }
