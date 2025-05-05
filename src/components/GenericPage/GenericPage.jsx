@@ -17,49 +17,7 @@ export const GenericPage = ({ title, items, bannerImage, bannerText }) => {
   const handleCardClick = (id) => {
     navigate(`/item/${id}`);
   };
-
-  // Efeito para reproduzir o vídeo automaticamente quando estiver visível
-  useEffect(() => {
-    const videoElement = videoRef.current;
-
-    // Configura o IntersectionObserver para reproduzir o vídeo quando ele estiver visível
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            // Reproduz o vídeo quando ele estiver visível
-            videoElement.play().catch((error) => {
-              console.error("Erro ao reproduzir o vídeo:", error);
-            });
-          } else {
-            // Pausa o vídeo quando ele não estiver visível
-            videoElement.pause();
-          }
-        });
-      },
-      {
-        threshold: 0.5, // Define que 50% do vídeo precisa estar visível para reproduzir
-      }
-    );
-
-    if (videoElement) {
-      observer.observe(videoElement); // Inicia a observação do vídeo
-    }
-
-    // Fallback caso o IntersectionObserver não seja suportado
-    if (!("IntersectionObserver" in window)) {
-      videoElement.play().catch((error) => {
-        console.error("Erro ao reproduzir o vídeo:", error);
-      });
-    }
-
-    // Limpa o observer quando o componente for desmontado
-    return () => {
-      if (videoElement) {
-        observer.unobserve(videoElement);
-      }
-    };
-  }, []);
+ 
 
   return (
     <div className="generic-page" id="generic-page">

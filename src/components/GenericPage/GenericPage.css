@@ -71,6 +71,18 @@
 }
 
 @media (max-width: 768px) {
+  .container_video {
+    flex-direction: column;
+  }
+
+  .container_video .video {
+    order: 1;
+  }
+
+  .container_video .cards {
+    order: 2;
+  }
+
   .generic__section {
     padding: 40px 0;
   }
@@ -87,10 +99,7 @@
     font-size: 1.6rem;
     padding: 1.5rem;
   }
-
-  .container_video {
-    flex-direction: column;
-  }
+ 
 
   .container_video .video {
     width: 80%;
@@ -120,6 +129,11 @@
 }
 
 @media (max-width: 480px) {
+  .container_video {
+    flex-direction: column;
+  }
+
+
   .generic__section {
     padding: 30px 0;
   }
