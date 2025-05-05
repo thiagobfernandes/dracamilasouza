@@ -83,7 +83,7 @@ const Services = () => {
   ))}
         <div className="vermais">
           <h1 onClick={() => navigate("/tratamentos")}>
-            {language === "es" ? "VER MÁS ---->" : "VER MAIS ---->"}
+            {language === "es" ? "VER MÁS >" : "VER MAIS >"}
           </h1>
         </div>
       </div>

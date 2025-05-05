@@ -48,7 +48,7 @@
 }
 
 .services__contact__info > span > a > p {
-  color: #000;
+  color: #ffffff;
   font-size: 1.6rem;
 }
 
@@ -294,7 +294,8 @@
     font-weight: 600;
   }
 
-  .services__contact__info > span > p {
+  .services__contact__info > span > a > p {
+    color: white;
     font-size: 1.4rem;
    
   }

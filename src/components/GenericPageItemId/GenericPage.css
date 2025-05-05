@@ -44,9 +44,10 @@
   }
 
   .generic_description {
+    margin: 6px;
     width: 90%; /* Aumenta a largura para ocupar mais espaço na tela */
     font-size: 1.6rem; /* Reduz o tamanho da fonte para melhor legibilidade */
-    padding: 20px; /* Reduz o padding interno */
+    padding: 10px; /* Reduz o padding interno */
     margin: 0 auto; /* Centraliza o elemento */
   }
 
@@ -60,11 +61,19 @@
 }
 
 @media (max-width: 480px) {
-  .generic_description {
-    width: 100%; /* Ocupa toda a largura disponível */
-    font-size: 1.6rem; /* Reduz ainda mais o tamanho da fonte */
-    padding: 15px; /* Reduz o padding interno */
-  }
+
+    .generic__title {
+      padding-top: 20px;
+      font-size: 2.3rem;
+    }
+    .generic_description{
+      font-size: 1.6rem;
+      padding: 12px;
+    }
+
+  
+
+  
 
   .accordion .header {
     font-size: 1rem; /* Reduz o tamanho da fonte do cabeçalho */

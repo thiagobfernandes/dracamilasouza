@@ -60,13 +60,12 @@ export const GenericPageItemId = ({ treatment }) => {
       <div
         style={{
           textAlign: "center",
-          fontSize: "2rem",
           width: "100%",
           display: "flex",
           justifyContent: "center",
         }}
       >
-        <p style={{ width: isMobile ? "90%" : "50%" }}>{footer}</p>
+        <p style={{ width: isMobile ? "90%" : "50%" , fontSize: isMobile ? "1.6rem":"2rem" }}>{footer}</p>
       </div>
 
       <AppointmentSection />
