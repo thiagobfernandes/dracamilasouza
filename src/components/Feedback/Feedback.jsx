@@ -19,7 +19,7 @@ const Feedback = () => {
       name: "Carlos Pereira",
       rating: 4,
       comment:
-        "Muito bom atendimento, apenas a espera foi um pouco longa, mas a doutora é excelente.",
+        "Atendimento ótimo e a doutora é muito atenciosa e excelente no que faz.",
     },
     {
       name: "Luciana Costa",

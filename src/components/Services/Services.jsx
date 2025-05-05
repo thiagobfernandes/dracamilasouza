@@ -76,14 +76,11 @@ const Services = () => {
       </div>
 
       <div className="services__service">
-        {tratamentos.map(
-          (item, index) =>
-            index < 3 && (
-              <div className="services__service__card" key={item.id} onClick={() => handleCardClick(item.id)}>
-                <ServiceCard key={index} title={item.title} description={item.description} image={item.image} />
-              </div>
-            )
-        )}
+      {tratamentos.slice(0, 3).reverse().map((item, index) => (
+    <div className="services__service__card" key={item.id} onClick={() => handleCardClick(item.id)}>
+      <ServiceCard title={item.title} description={item.description} image={item.image} />
+    </div>
+  ))}
         <div className="vermais">
           <h1 onClick={() => navigate("/tratamentos")}>
             {language === "es" ? "VER MÁS ---->" : "VER MAIS ---->"}
