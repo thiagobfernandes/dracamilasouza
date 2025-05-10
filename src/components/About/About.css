@@ -106,6 +106,7 @@
     flex-direction: column;
     padding: 2rem 2rem;
     gap: 2rem;
+    margin-top: 0px;
   }
   .about__description > h1 {
     font-size: 3rem;

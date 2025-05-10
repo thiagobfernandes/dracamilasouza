@@ -10,12 +10,8 @@ const About = () => {
   return (
     <div className="about" id="about">
       <div className="about__description">
-        <h1>
-          {language === "es" ? "Nuestro" : "Nosso"} <span>{language === "es" ? "Trabajo" : "Trabalho"}</span> <br />
-        </h1>
-        <div className="about__hero__mobile">
-          <img src={dr2} alt="hero" />
-        </div>
+      
+      
         <h2>
           {language === "es"
             ? "Bienvenido a un viaje de transformación y autocuidado"
@@ -30,9 +26,7 @@ const About = () => {
           {language === "es" ? "¡Conócenos!" : "Conheça!"}
         </button>
       </div>
-      <div className="about__hero">
-        <img src={dr2} alt="hero" />
-      </div>
+      
     </div>
   );
 };
