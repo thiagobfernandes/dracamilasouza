@@ -19,9 +19,13 @@
 .navbar.transparent {
   background-color: #1b7f7dbd; /* Cor transparente */
 }
+.navbar__logo{
+  width: 50%;
+
+}
 
 .navbar__logo > a > img {
-  width: 100%;
+  width: 40%;
 }
 
 .navbar__logo > a {
@@ -32,7 +36,7 @@
   color: white;
   font-weight: bold;
   text-decoration: none;
-  width: 100%;
+  width: 50%;
 }
 
 .navbar__links {
@@ -154,10 +158,15 @@ color: white
     padding: 1rem 1rem;
     align-items: center;
   }
+  .navbar__logo{
+    width: 70%;
+  }
   .navbar__logo > a > img {
-    width: 50%;
+    width: 70%;
     height: 25%;
   }
+
+
 
   .navbar__links {
     display: none;

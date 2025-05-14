@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { IconButton, useMediaQuery } from "@mui/material";
 import { Close, DragHandle } from "@mui/icons-material";
 import { Link, NavLink, useNavigate, useLocation } from "react-router-dom";
-import Logo from "../../assets/logo .png";
+import Logo from "../../assets/logo.png";
 import { useLanguage } from "../../context/languageContext"; // Importando o contexto de idioma
 
 const Navbar = ({ hideLinks }) => {
